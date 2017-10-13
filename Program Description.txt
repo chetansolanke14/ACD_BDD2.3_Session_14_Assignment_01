@@ -1,0 +1,22 @@
+-> works with rational and integers both
+-> retains output of last operation so that output can be used for further calculation
+
+What does the code of calculator contain??? ----------->>>>>>>>>>>>>>>
+-> Rational class is defined where
+1. one primary constructor with two parameters is defined (in declaration of Rational class itself)
+2. one auxiliary constructor with one parameter is defined
+3. two data members are defined "numer" (i.e. numerator) and "denom" (i.e. denominator)
+4. inbuilt "require" method is used to check whether value entered by user for denominator is 0, if it is zero then exception is generated with message
+5. gcd method is defined which receives two parameters of int type and returns one parameter of int type
+6. method overloading is used to overload +,-,*,/ operators to work with both rational and integer numbers
+-> object class "Calculator" is defined where
+1. NumberChoice() method is defined which gives two options to user i.e.
+   whether user wants to work with rational number or with integer (whole) number
+   [NOTE -> user can enter + or - values both for rational and whole numbers]
+2. makeRational() method is defined which creates a rational number if user chooses to work with rational number
+2. Options() method is defined which provides options of operations to user i.e. add, subtract, multiply, divide
+3. Compute() method is defined where
+   input(s) from user is taken either for rational or for integer (whole) number
+   call to overloaded =,-,*,/ method is made depending upon option of operations chosen by the user
+4. inside main() method, do while loop is run until user presses 'y' to exit,
+   otherwise user can continue to perform operation while retaining last value of operation

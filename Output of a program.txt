@@ -1,0 +1,27 @@
+"C:\Program Files\Java\jdk1.8.0_73\bin\java" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.2\lib\idea_rt.jar=54373:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Users\Chetu\IdeaProjects\ScalaPract\target\scala-2.10\classes;C:\Users\Chetu\.sbt\boot\scala-2.10.6\lib\scala-library.jar" calculator.Calculator
+<<<<<<----- Calculating Machine ------>>>>>>
+Please enter your choice....Which number you want to do calculations with....
+1. Rational
+2. Whole
+1
+Enter numerator and denominator : 
+12
+2
+Rational Number is : calculator.Rational@1b0375b3
+******** Calculating machine provides below operations *********
+ 
+1. Add a rational
+2. Subtract a rational
+3. Multiply a rational
+4. Divide a rational
+5. Add an integer
+6. Subtract an integer
+7. Multiply an integer
+8. Divide an integer
+Please enter any of the above options : 
+1
+Enter numerator and denominator of a rational number for addition : 
+1
+2
+Output is : 13/2
+Press y to exit..... else press any character to continue...
